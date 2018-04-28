@@ -16,7 +16,7 @@ ROOT_IMPORT_PATH := github.com/andrewpolidori/gote
 # Makes binary
 $(BINARY):
 	@echo Building $(BINARY)
-	cd cmd/dungeondb && go build $(LDFLAGS) -o $(BINARY)	
+	go build -o $(BINARY)	
 
 #Runs the application unit tests
 test:

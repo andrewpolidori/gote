@@ -17,7 +17,7 @@ func makeTerminal() (*term.Term, error) {
 
 //die
 func die(message string) {
-	log.Fatalln("Error: %s", message)
+	log.Fatalln(message)
 }
 
 func main() {
